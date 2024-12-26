@@ -14,7 +14,6 @@ dist-ssr
 
 #ignore file
 
-pages/
 
 # Editor directories and files
 .vscode/*
