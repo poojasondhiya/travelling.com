@@ -22,9 +22,9 @@ function Navbar() {
           {/* Desktop Nav Links (Centered) */}
           <ul className="hidden md:flex space-x-8 text-md font-bold mx-auto">
             <li>
-              <a href="/" className="hover:text-blue-900">
+              <Link to="/" className="hover:text-blue-900">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
               <a href="/about" className="hover:text-blue-900">

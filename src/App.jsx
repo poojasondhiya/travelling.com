@@ -22,7 +22,6 @@ function App() {
         <Route path='/pag' element = {<Pag/>}/>
         <Route path='/contact' element = {<Contact/>}/>
        <Route path='/login' element = {<Login/>}/>
-
       </Routes>
     </Router>
     </>
