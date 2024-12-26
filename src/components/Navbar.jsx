@@ -27,29 +27,29 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <a href="/about" className="hover:text-blue-900">
+              <Link  to="/about" className="hover:text-blue-900">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/india" className="hover:text-blue-900">
+              <Link to="/india" className="hover:text-blue-900">
                 India
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/world" className="hover:text-blue-900">
+              <Link to="/world" className="hover:text-blue-900">
                 World
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/Pag" className="hover:text-blue-900">
+              <Link to="/Pag" className="hover:text-blue-900">
                 Pages
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="hover:text-blue-900">
+              <Link to="/contact" className="hover:text-blue-900">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
 
@@ -76,34 +76,34 @@ function Navbar() {
           <div className="mt-4 md:hidden">
             <ul className="space-y-4 text-center text-md font-bold">
               <li>
-                <a href="#home" className="block hover:text-blue-950">
+                <Link to="#home" className="block hover:text-blue-950">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#about" className="block hover:text-blue-900">
+                <Link to="#about" className="block hover:text-blue-900">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#india" className="block hover:text-blue-900">
+                <Link to="#india" className="block hover:text-blue-900">
                   India
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#world" className="block hover:text-blue-900">
+                <Link to="#world" className="block hover:text-blue-900">
                   World
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#pages" className="block hover:text-blue-900">
+                <Link to="#pages" className="block hover:text-blue-900">
                   Pages
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="block hover:text-blue-900">
+                <Link to="#contact" className="block hover:text-blue-900">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
 
